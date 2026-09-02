@@ -1,0 +1,20 @@
+# Binários compilados
+main
+main.exe
+main-irace
+main-irace.exe
+*.o
+*.obj
+
+# Saídas do irace (geradas a cada execução)
+irace/logs/
+irace/report.html
+irace/report_files/
+
+# Resultados de execuções locais
+decode_individuals/individuals/
+
+# SO / editores
+.DS_Store
+Thumbs.db
+.vscode/
